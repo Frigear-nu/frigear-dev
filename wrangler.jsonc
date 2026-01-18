@@ -13,10 +13,6 @@
     {
       "custom_domain": true,
       "pattern": "frigear.dev"
-    },
-    {
-      "custom_domain": true,
-      "pattern": "nuxt.frigear.nu"
     }
   ],
   "assets": {
