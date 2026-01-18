@@ -1,0 +1,30 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "frigear-dev",
+  "compatibility_date": "2025-10-16",
+  "keep_vars": true,
+  "observability": {
+    "logs": {
+      "enabled": true
+    }
+  },
+  "preview_urls": false,
+  "routes": [
+    {
+      "custom_domain": true,
+      "pattern": "frigear.dev"
+    },
+    {
+      "custom_domain": true,
+      "pattern": "nuxt.frigear.nu"
+    }
+  ],
+  "assets": {
+    "directory": ".output/public"
+  },
+  "compatibility_flags": [
+    "nodejs_als",
+    "nodejs_compat",
+    "no_nodejs_compat_v2"
+  ]
+}
