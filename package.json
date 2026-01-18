@@ -1,5 +1,6 @@
 {
   "name": "frigear-dev",
+  "version": "0.0.1-beta.0",
   "scripts": {
     "dev": "nuxt dev --extends simple-content-site",
     "build": "nuxt build --extends simple-content-site"
