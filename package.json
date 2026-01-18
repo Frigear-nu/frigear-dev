@@ -9,5 +9,8 @@
     "better-sqlite3": "^12.2.0",
     "nuxt": "^4.2.2",
     "simple-content-site": "latest"
+  },
+  "devDependencies": {
+    "wrangler": "^4.59.2"
   }
 }
