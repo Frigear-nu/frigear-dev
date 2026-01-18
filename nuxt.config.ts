@@ -1,13 +1,14 @@
 export default defineNuxtConfig({
-  modules: ['nuxt-studio'],
-  i18n: false,
-  studio: {
-    // route: '/admin',
-    repository: {
-      owner: 'hareland',
-      repo: 'simple-content-site',
-      branch: 'main',
-      rootDir: 'playground/minimal',
+    modules: [
+        '@nuxt/content',
+        'nuxt-studio',
+        '@nuxt/ui',
+    ],
+    studio: {
+        repository: {
+            owner: 'Frigear-nu',
+            repo: 'frigear-dev',
+            branch: 'main',
+        },
     },
-  },
 })
