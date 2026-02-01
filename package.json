@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "better-sqlite3": "^12.2.0",
-    "nuxt": "^4.2.2",
+    "nuxt": "^4.3.0",
     "simple-content-site": "latest"
   },
   "devDependencies": {
